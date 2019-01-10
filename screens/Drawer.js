@@ -97,7 +97,7 @@ export default class Drawer extends Component<Props> {
           Quiz APP
         </Text>
         <View style={styles.imageTitle}>
-          <Image style={styles.Image} 
+          <Image style={styles.image} 
                  source={{url: 'https://cdn.pixabay.com/photo/2016/11/05/11/10/quiz-1799937_960_720.png'}}/>
         </View>
 
@@ -152,8 +152,8 @@ const styles = StyleSheet.create({
 	  borderRadius: 10,
   },
   image: {
-    width: 200,
-    height: 100,
+    width: 300,
+    height: 200,
   },
   imageTitle: {
     marginTop: 10,

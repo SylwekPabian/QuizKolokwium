@@ -1,70 +1,37 @@
 /** @format */
 
 import {Navigation} from 'react-native-navigation';
-import {Dimensions} from 'react-native';
+import {registerScreens} from './src/screen/';
 
-import App from './App';
-import Test from './screens/Test.js';
-import Results from './screens/Results.js';
-import Drawer from './screens/Drawer.js';
+registerScreens();
 
-Navigation.registerComponent('Welcome', () => App)
-Navigation.registerComponent('Test', () => Test)
-Navigation.registerComponent('Results', () => Results)
-Navigation.registerComponent('Drawer', () => Drawer)
-
-const { width } = Dimensions.get('window');
 Navigation.events().registerAppLaunchedListener(() => {
-  Navigation.setDefaultOptions({
-    layout: {
-      orientation: ['portrait']
-    },
-    topBar: {
-      elevation: 0,
-      visible: true,
-      drawBehind: false,
-      animate: false,
-      buttonColor: 'white',
-      title: {
-        color: 'white',
-        alignment: 'center'
-      },
-      background: {
-        color: '#F3B31E'
-      }
-    }
-  });
-
   Navigation.setRoot({
     root: {
-      sideMenu: {
-        left: {
+      bottomTabs: {
+        children: [{
           component: {
-            id: 'drawerID',
-            name: 'Drawer',
-            fixedWidth: width
+            name: 'Devices',
+            options: {
+              bottomTab: {
+                text: 'Devices',
+                icon: require('./assets/images/iot.png')
+              }
+            }
           }
         },
-        center: {
-          stack: {
-            id: 'MAIN_STACK',
-            children: [
-              {
-                component: {
-                  name: 'Welcome',
-                  options: {
-                    topBar: {
-                      title: {
-                        text: 'Strona główna'
-                      }
-                    }
-                  }
-                },
-              },
-            ]
-          }
-        }
-      },
+          {
+            component: {
+              name: 'Connect',
+              options: {
+                bottomTab: {
+                  text: 'Connect',
+                  icon: require('./assets/images/ble.png')
+                }
+              }
+            }
+          }]
+      }
     }
   });
 });

@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -38,26 +39,6 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C45DEA232193336D00803F7A /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45DEA202193324600803F7A /* libReactNativeNavigation.a */; };
-		327CFBE723504933AB389466 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE93089CF8AF43179987132F /* OpenSans-Regular.ttf */; };
-		482FB87C92A84EADB7D29B61 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCB0E916AC14DBFAEBF01E1 /* RobotoCondensed-Regular.ttf */; };
-		1273EE619C504A3DB941E878 /* libSQLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4009D2A3ED9442EE85204184 /* libSQLite.a */; };
-		0D7593D43E1944F5BDF5696D /* Mukta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E6D32D5E96B41118C968700 /* Mukta-Bold.ttf */; };
-		43E35CB904E246BA8317338C /* Mukta-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B27A9C9CD64ECDB0B63F15 /* Mukta-ExtraBold.ttf */; };
-		B8E371FDCEED45E1ACFABB74 /* Mukta-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2FA9CFCAA204DFEA1D14D57 /* Mukta-ExtraLight.ttf */; };
-		E7A7816016DA4F2D9ADF803B /* Mukta-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B21885BFFF0248E6AC0A228F /* Mukta-Light.ttf */; };
-		EBBDFFAD67B84DB8A633B1F8 /* Mukta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B57FDE63D7C420F9CE1C99F /* Mukta-Medium.ttf */; };
-		27283DCC43004231945FA247 /* Mukta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BC3807C8B14C86ADFE4FDC /* Mukta-Regular.ttf */; };
-		CDBE186932BD4A05AAEAA2F2 /* Mukta-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA7A3A7AFE4485963BAEC4 /* Mukta-SemiBold.ttf */; };
-		6DE879B15275442181C76D78 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C45223B3A3D4AB2BC246DCD /* RobotoMono-Bold.ttf */; };
-		E3A1A0571EE3449886ACB2A9 /* RobotoMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5269F35E0F8484C8C284D9F /* RobotoMono-BoldItalic.ttf */; };
-		769CC306D848452C8401EB50 /* RobotoMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CAD294382AC442BB4B7BA14 /* RobotoMono-Italic.ttf */; };
-		11D7A2591FA044D8B955FA2C /* RobotoMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB9B39F7DE2F46C5B02841CF /* RobotoMono-Light.ttf */; };
-		77030D1137D7469BA96AA78E /* RobotoMono-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E708CB8FB98C4D8CB36D59A8 /* RobotoMono-LightItalic.ttf */; };
-		ED928AAB00AA48119641AD51 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 915D6105D5D0463D8B50045C /* RobotoMono-Medium.ttf */; };
-		5D24FF3CA08F41EF887B7C55 /* RobotoMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7AC175A75A8490A89D1BFB4 /* RobotoMono-MediumItalic.ttf */; };
-		5E4A2177AF4946858B20DB79 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A80A0AB7BB474D05AD27F5EA /* RobotoMono-Regular.ttf */; };
-		FEB95398ABAB47A582F30248 /* RobotoMono-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65554E89FF154CA396A8477C /* RobotoMono-Thin.ttf */; };
-		4C9E4D2234D74C328FBDEB73 /* RobotoMono-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D66146C32246489286697914 /* RobotoMono-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -378,27 +359,6 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		C45DE9F52193324600803F7A /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "../node_modules/react-native-navigation/lib/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
-		BE93089CF8AF43179987132F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CBCB0E916AC14DBFAEBF01E1 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A242471325442EFA41AA920 /* SQLite.xcodeproj */ = {isa = PBXFileReference; name = "SQLite.xcodeproj"; path = "../node_modules/react-native-sqlite-storage/src/ios/SQLite.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		4009D2A3ED9442EE85204184 /* libSQLite.a */ = {isa = PBXFileReference; name = "libSQLite.a"; path = "libSQLite.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		8E6D32D5E96B41118C968700 /* Mukta-Bold.ttf */ = {isa = PBXFileReference; name = "Mukta-Bold.ttf"; path = "../assets/fonts/Mukta-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A6B27A9C9CD64ECDB0B63F15 /* Mukta-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Mukta-ExtraBold.ttf"; path = "../assets/fonts/Mukta-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2FA9CFCAA204DFEA1D14D57 /* Mukta-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Mukta-ExtraLight.ttf"; path = "../assets/fonts/Mukta-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B21885BFFF0248E6AC0A228F /* Mukta-Light.ttf */ = {isa = PBXFileReference; name = "Mukta-Light.ttf"; path = "../assets/fonts/Mukta-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5B57FDE63D7C420F9CE1C99F /* Mukta-Medium.ttf */ = {isa = PBXFileReference; name = "Mukta-Medium.ttf"; path = "../assets/fonts/Mukta-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		18BC3807C8B14C86ADFE4FDC /* Mukta-Regular.ttf */ = {isa = PBXFileReference; name = "Mukta-Regular.ttf"; path = "../assets/fonts/Mukta-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1AFA7A3A7AFE4485963BAEC4 /* Mukta-SemiBold.ttf */ = {isa = PBXFileReference; name = "Mukta-SemiBold.ttf"; path = "../assets/fonts/Mukta-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5C45223B3A3D4AB2BC246DCD /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Bold.ttf"; path = "../assets/fonts/RobotoMono-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B5269F35E0F8484C8C284D9F /* RobotoMono-BoldItalic.ttf */ = {isa = PBXFileReference; name = "RobotoMono-BoldItalic.ttf"; path = "../assets/fonts/RobotoMono-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7CAD294382AC442BB4B7BA14 /* RobotoMono-Italic.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Italic.ttf"; path = "../assets/fonts/RobotoMono-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB9B39F7DE2F46C5B02841CF /* RobotoMono-Light.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Light.ttf"; path = "../assets/fonts/RobotoMono-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E708CB8FB98C4D8CB36D59A8 /* RobotoMono-LightItalic.ttf */ = {isa = PBXFileReference; name = "RobotoMono-LightItalic.ttf"; path = "../assets/fonts/RobotoMono-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		915D6105D5D0463D8B50045C /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Medium.ttf"; path = "../assets/fonts/RobotoMono-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B7AC175A75A8490A89D1BFB4 /* RobotoMono-MediumItalic.ttf */ = {isa = PBXFileReference; name = "RobotoMono-MediumItalic.ttf"; path = "../assets/fonts/RobotoMono-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A80A0AB7BB474D05AD27F5EA /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Regular.ttf"; path = "../assets/fonts/RobotoMono-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		65554E89FF154CA396A8477C /* RobotoMono-Thin.ttf */ = {isa = PBXFileReference; name = "RobotoMono-Thin.ttf"; path = "../assets/fonts/RobotoMono-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D66146C32246489286697914 /* RobotoMono-ThinItalic.ttf */ = {isa = PBXFileReference; name = "RobotoMono-ThinItalic.ttf"; path = "../assets/fonts/RobotoMono-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -427,7 +387,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				1273EE619C504A3DB941E878 /* libSQLite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,7 +574,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				0A242471325442EFA41AA920 /* SQLite.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -637,7 +595,6 @@
 				00E356EF1AD99517003FC87E /* QuizTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				2EE87561B06E4F638CD7836F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -672,33 +629,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		2EE87561B06E4F638CD7836F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				BE93089CF8AF43179987132F /* OpenSans-Regular.ttf */,
-				CBCB0E916AC14DBFAEBF01E1 /* RobotoCondensed-Regular.ttf */,
-				8E6D32D5E96B41118C968700 /* Mukta-Bold.ttf */,
-				A6B27A9C9CD64ECDB0B63F15 /* Mukta-ExtraBold.ttf */,
-				B2FA9CFCAA204DFEA1D14D57 /* Mukta-ExtraLight.ttf */,
-				B21885BFFF0248E6AC0A228F /* Mukta-Light.ttf */,
-				5B57FDE63D7C420F9CE1C99F /* Mukta-Medium.ttf */,
-				18BC3807C8B14C86ADFE4FDC /* Mukta-Regular.ttf */,
-				1AFA7A3A7AFE4485963BAEC4 /* Mukta-SemiBold.ttf */,
-				5C45223B3A3D4AB2BC246DCD /* RobotoMono-Bold.ttf */,
-				B5269F35E0F8484C8C284D9F /* RobotoMono-BoldItalic.ttf */,
-				7CAD294382AC442BB4B7BA14 /* RobotoMono-Italic.ttf */,
-				CB9B39F7DE2F46C5B02841CF /* RobotoMono-Light.ttf */,
-				E708CB8FB98C4D8CB36D59A8 /* RobotoMono-LightItalic.ttf */,
-				915D6105D5D0463D8B50045C /* RobotoMono-Medium.ttf */,
-				B7AC175A75A8490A89D1BFB4 /* RobotoMono-MediumItalic.ttf */,
-				A80A0AB7BB474D05AD27F5EA /* RobotoMono-Regular.ttf */,
-				65554E89FF154CA396A8477C /* RobotoMono-Thin.ttf */,
-				D66146C32246489286697914 /* RobotoMono-ThinItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -781,7 +711,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1164,25 +1094,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				327CFBE723504933AB389466 /* OpenSans-Regular.ttf in Resources */,
-				482FB87C92A84EADB7D29B61 /* RobotoCondensed-Regular.ttf in Resources */,
-				0D7593D43E1944F5BDF5696D /* Mukta-Bold.ttf in Resources */,
-				43E35CB904E246BA8317338C /* Mukta-ExtraBold.ttf in Resources */,
-				B8E371FDCEED45E1ACFABB74 /* Mukta-ExtraLight.ttf in Resources */,
-				E7A7816016DA4F2D9ADF803B /* Mukta-Light.ttf in Resources */,
-				EBBDFFAD67B84DB8A633B1F8 /* Mukta-Medium.ttf in Resources */,
-				27283DCC43004231945FA247 /* Mukta-Regular.ttf in Resources */,
-				CDBE186932BD4A05AAEAA2F2 /* Mukta-SemiBold.ttf in Resources */,
-				6DE879B15275442181C76D78 /* RobotoMono-Bold.ttf in Resources */,
-				E3A1A0571EE3449886ACB2A9 /* RobotoMono-BoldItalic.ttf in Resources */,
-				769CC306D848452C8401EB50 /* RobotoMono-Italic.ttf in Resources */,
-				11D7A2591FA044D8B955FA2C /* RobotoMono-Light.ttf in Resources */,
-				77030D1137D7469BA96AA78E /* RobotoMono-LightItalic.ttf in Resources */,
-				ED928AAB00AA48119641AD51 /* RobotoMono-Medium.ttf in Resources */,
-				5D24FF3CA08F41EF887B7C55 /* RobotoMono-MediumItalic.ttf in Resources */,
-				5E4A2177AF4946858B20DB79 /* RobotoMono-Regular.ttf in Resources */,
-				FEB95398ABAB47A582F30248 /* RobotoMono-Thin.ttf in Resources */,
-				4C9E4D2234D74C328FBDEB73 /* RobotoMono-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1315,14 +1226,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1341,14 +1244,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz.app/Quiz";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Release;
 		};
@@ -1368,10 +1263,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Quiz;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1390,10 +1281,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Quiz;
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Release;
 		};
@@ -1420,14 +1307,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1454,14 +1333,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Release;
 		};
@@ -1487,14 +1358,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz-tvOS.app/Quiz-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1520,14 +1383,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quiz-tvOS.app/Quiz-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)\..\node_modules\react-native-sqlite-storage\src\ios",
-				);
 			};
 			name = Release;
 		};
